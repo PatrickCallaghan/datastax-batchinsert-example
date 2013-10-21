@@ -1,4 +1,4 @@
-package com.datastax.ssl;
+package com.datastax.batch;
 
 import com.datastax.driver.core.BatchStatement;
 import com.datastax.driver.core.Cluster;
