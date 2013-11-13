@@ -60,7 +60,7 @@ public class BatchExample {
 	
 	public void tearDown(){
 		
-		String dropKeyspace = "DROP KEYSPACE " + this.keyspaceName;
+		String dropKeyspace = "DROP KEYSPACE " + keyspaceName;
 		
 		this.session.execute(dropKeyspace);
 		System.out.println("Keyspace DROPPED");
